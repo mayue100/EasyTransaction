@@ -9,49 +9,49 @@
 	
 	<!-- Following beans can be replaced with your own implement -->
 	
-	<bean id="easyTransConfig" class="com.yiqiniu.easytrans.config.impl.PropertiesEasyTransConfigImpl"></bean>
+	<bean id="easyTransConfig" class="com.mayue.trans.config.impl.PropertiesEasyTransConfigImpl"></bean>
 	
 	<!-- If your service has only one datasource,you can use the following datasouce selector -->
-	<!-- <bean id="dataSourceSelector" class="com.yiqiniu.easytrans.datasource.impl.SingleDataSourceSelector">
+	<!-- <bean id="dataSourceSelector" claSingleDataSourceSelectorctor">
 		<property name="dataSource" ref="testDataSource"></property>
 		<property name="transactionManager" ref="testTransactionManager"></property>
 	</bean> -->
-	<bean id="dataSourceSelector" class="com.yiqiniu.easytrans.test.mockservice.TestBusinessDataSourceSelector">
+	<bean id="dataSourceSelector" class="com.mayue.trans.test.mockservice.TestBusinessDataSourceSelector">
 	</bean>
 	
-	<bean id="easyTransFilterFactory" class="com.yiqiniu.easytrans.filter.DefaultEasyTransFilterFactory">
+	<bean id="easyTransFilterFactory" class="com.mayue.trans.filter.DefaultEasyTransFilterFactory">
 		<property name="defaultFilters">
 			<list>
-				<bean class="com.yiqiniu.easytrans.idempotent.DefaultIdempotentHandlerFilter">
-					<property name="helper"><bean class="com.yiqiniu.easytrans.idempotent.IdempotentHelper"></bean></property>
+				<bean class="com.mayue.trans.idempotent.DefaultIdempotentHandlerFilter">
+					<property name="helper"><bean class="com.mayue.trans.idempotent.IdempotentHelper"></bean></property>
 				</bean>
 			</list>
 		</property>
 	</bean>
 	
-	<bean id="transactionLogWritter" class="com.yiqiniu.easytrans.log.impl.DataBaseTransactionLogWritterImpl">
+	<bean id="transactionLogWritter" class="com.mayue.trans.log.impl.DataBaseTransactionLogWritterImpl">
 		<property name="dataSource" ref="transLog"></property>
 	</bean>
 	
-	<bean id="transactionLogReader" class="com.yiqiniu.easytrans.log.impl.DataBaseTransactionLogReaderImpl">
+	<bean id="transactionLogReader" class="com.mayue.trans.log.impl.DataBaseTransactionLogReaderImpl">
 		<property name="dataSource" ref="transLog"></property>
 	</bean>
 	
-	<bean id="easyTransMasterSelector" class="com.yiqiniu.easytrans.master.impl.ZooKeeperMasterSelectorImpl"></bean>
+	<bean id="easyTransMasterSelector" class="com.mayue.trans.master.impl.ZooKeeperMasterSelectorImpl"></bean>
 	
-	<bean id="listableProviderFactory" class="com.yiqiniu.easytrans.provider.factory.DefaultListableProviderFactory"></bean>
+	<bean id="listableProviderFactory" class="com.mayue.trans.provider.factory.DefaultListableProviderFactory"></bean>
 	
 	<!-- queue setting -->
-	<bean class="com.yiqiniu.easytrans.queue.impl.ons.AliYunOnsHelper"></bean>
-	<bean id="easyTransMsgPublisher" class="com.yiqiniu.easytrans.queue.impl.ons.OnsEasyTransMsgPublisherImpl"></bean>
-	<bean id="easyTransMsgConsumer" class="com.yiqiniu.easytrans.queue.impl.ons.OnsEasyTransMsgConsumerImpl"></bean>
+	<bean class="com.mayue.trans.queue.impl.ons.AliYunOnsHelper"></bean>
+	<bean id="easyTransMsgPublisher" class="com.mayue.trans.queue.impl.ons.OnsEasyTransMsgPublisherImpl"></bean>
+	<bean id="easyTransMsgConsumer" class="com.mayue.trans.queue.impl.ons.OnsEasyTransMsgConsumerImpl"></bean>
 	
-	<bean id="easyTransRpcClient" class="com.yiqiniu.easytrans.rpc.impl.dubbo.DubboEasyTransRpcConsumerImpl"></bean>
-	<bean id="easyTransRpcProvider" class="com.yiqiniu.easytrans.rpc.impl.dubbo.DubboEasyTransRpcProviderImpl"></bean>
+	<bean id="easyTransRpcClient" class="com.mayue.trans.rpc.impl.dubbo.DubboEasyTransRpcConsumerImpl"></bean>
+	<bean id="easyTransRpcProvider" class="com.mayue.trans.rpc.impl.dubbo.DubboEasyTransRpcProviderImpl"></bean>
 	
-	<bean id="objectSerializer" class="com.yiqiniu.easytrans.serialization.impl.SpringObjectSerialization"></bean>
+	<bean id="objectSerializer" class="com.mayue.trans.serialization.impl.SpringObjectSerialization"></bean>
 	
-	<bean id="transStatusLogger" class="com.yiqiniu.easytrans.datasource.impl.DefaultTransStatusLoggerImpl">
+	<bean id="transStatusLogger" class="com.mayue.trans.datasource.impl.DefaultTransStatusLoggerImpl">
 	</bean>
 	
 	<!-- transLog -->

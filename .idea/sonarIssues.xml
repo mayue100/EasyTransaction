@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="C:/pro/jzjf2/nbgl2-jzjf-business/src/main/java/cn/com/servyou/jzjf/service/wlqd/impl/WlqdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/jzjf2/nbgl2-jzjf-core/src/main/java/cn/com/servyou/jzjf/dataobject/WlqdGroupDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/jzjf2/nbgl2-jzjf-web/src/main/java/cn/com/servyou/jzjf/controller/fjzjf/FjzfjController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/jzjf2/nbgl2-jzjf-web/src/main/java/cn/com/servyou/jzjf/controller/invoice/JzjfInvoiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/jzjf2/nbgl2-jzjf-web/src/main/java/cn/com/servyou/jzjf/controller/print/JzjfPrintController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/jzjf2/nbgl2-jzjf-web/src/main/java/cn/com/servyou/jzjf/controller/wlqd/JzjfWlqdController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/jzjf2/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/pro/nbgl2/src/main/java/cn/com/jdlssoft/nbgl2/app/soa/SwglSywService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/ConsistentGuardian.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/EasyTransSynchronizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/datasource/TransStatusLogger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/executor/AfterTransMethodExecutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/executor/EasyTransExecutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/executor/RelativeInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/BusinessIdentifer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/BusinessProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/EasyTransRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/ExecuteOrder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/IdempotentTypeDeclare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/MessageBusinessProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/RpcBusinessProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/aft/AbstractAfterMasterTransRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/aft/AfterMasterTransMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/aft/AfterMasterTransRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/cps/AbstractCompensableMethodRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/cps/CompensableMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/cps/CompensableMethodRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/msg/BestEffortMessageHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/msg/PublishResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/tcc/TccMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/protocol/tcc/TccMethodRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mayue/trans/provider/factory/DefaultListableProviderFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiqiniu/easytrans/protocol/ExecuteOrder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/yiqiniu/easytrans/protocol/cps/CompensableMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/mayue/trans/test/mockservice/accounting/easytrans/AccountingCpsMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

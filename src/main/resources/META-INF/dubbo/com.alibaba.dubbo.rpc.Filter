@@ -1,1 +1,1 @@
-easyTransFilter=com.yiqiniu.easytrans.rpc.impl.dubbo.DubboEasyTransFilter
+easyTransFilter=DubboEasyTransFilter
